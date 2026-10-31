@@ -1,0 +1,4 @@
+# Obsidian per-device state (keep it out of a fork you use as a live vault)
+.obsidian/workspace*.json
+.obsidian/plugins/*/data.json
+.trash/
