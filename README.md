@@ -13,7 +13,7 @@ leave this?" without any AI in the loop.
 |---|---|
 | `BUILD-SPEC.md` | The full build spec: 26 design rules with their reasons, the vault contract, the plugin contract, optional brief and capture sweeps, and a 12-step build order with a check per step. Written to hand to Claude Code. |
 | `global-CLAUDE.md` | A template for your user-level instructions (`~/.claude/CLAUDE.md`), which apply to every Claude Code session on the machine. Fill in the `<...>` placeholders here and in `vault/CLAUDE.md`. |
-| `vault/` | Most of step 0, done for you: the folder structure, `CLAUDE.md` for the vault, the four templates, the `_System` notes and an Admin workstream. The `.base` view files, `core-plugins.json` and `snippets/cockpit.css` are created in your first session; the step-0 check in section 10 of the spec lists them. |
+| `vault/` | Most of step 0, done for you: the folder structure, `CLAUDE.md` for the vault, the four templates, the `_System` notes and an Admin workstream. The `.base` view files, `core-plugins.json` and `snippets/cockpit.css` are created in your first session; section 4.1 of the spec lists them. |
 
 **Requirements:** Obsidian 1.9+ (for Bases) and Claude Code.
 
